@@ -37,6 +37,62 @@ print(MYVAR)
 print(myvar2)
 myvar = "Jimmy"
 print(myvar)
+my_var = "Billy"
+print(my_var)
+myVariableName = "Jimmy"
+my_variable_name = "Jimmy"
+x,y,z = "a","b","c"
+print(x)
+print(y)
+print(z)
+x=y=z= "Alphabet"
+print (x)
+print (y)
+print (z)
+Cities = ["London","Paris","Chicago"]
+x,y,z= Cities
+print(x)
+print(y)
+print (z)
+print(x,y,z)
+print(x+y+z)
+Numbers = ["2","17","23"]
+x,y,z= Numbers
+print(x+y+z)
+print(x,z,y)
+x=17
+y=23
+print(x,y)
+print(x+y)
+x= "Steve"
+y=21
+z= "y.o"
+print(x,y,z)
+x= "amazing"
+y= "Mineral Water "
+z= "is "
+def myfunc():
+    x= "taste"
+    print(y+z+x)
+myfunc()
+print(y+z+x)
+def myfunc():
+    global x
+    x= "superb"
+myfunc()
+print("This water is " + x)
+x= "awesome"
+def myfunc():
+    global x
+    x= "superb"
+myfunc()
+print( "This thing is " + x)
+Carnames = ["Volvo","Subaru","Land Rover"]
+x,y,z = Carnames
+print(x,y,z)
+x=y=z="Samsung"
+print(x,y,z)
+
     
 
 
