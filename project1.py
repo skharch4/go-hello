@@ -21,6 +21,7 @@ if 26>25:
     
     print(b)
     print(B)
+    #Testing Variables
     myvar = "John"
 my_var = "John"
 _my_var = "John"
@@ -92,9 +93,69 @@ x,y,z = Carnames
 print(x,y,z)
 x=y=z="Samsung"
 print(x,y,z)
-
-    
-
-
+#Testing types below
+x = int (21)
+print(x)
+print(type(x))
+x= bytearray(5)
+print(x)
+print(type(x))
+z=b"Type below"
+print(z)
+print(type(z))
+#Testing types of numbers below
+x= 253j
+print (x)
+print(type(x))
+z=25
+print(z)
+print(type(z))
+y=23.17
+print(y)
+print(type(y))
+x=0
+print(x)
+print(type(x))
+y=31498432958234
+print(y)
+print(type(y))
+z=-31425312234
+print(z)
+print(type(z))   
+x=5
+print(x)
+print(type(x))
+x=5.3
+print(x)
+print(type(x))
+x = int(1)
+y = int(2.34)
+z = int(2.501)
+print (x,y,z)
+x = float(1)
+y = float(2.34)
+z = float(2.564) 
+print(x,y,z)
+x = str(21)
+y= str(25.123)
+z= str (1j)
+print (x,y,z)
+V = "Variety"
+print(V)
+b = "White"
+print (b)
+x = '''London is a capital of England. England is a part of Great Britian'''
+print (x)
+a = "White,mineral, water"
+print(a[6]) 
+for y in "Europe Union":
+    print(y)
+a = "Good Morning, everyone!"
+print(len(a))
+txt = "Henry Ford was born in 1861, Detroit"
+print ("born" in txt)
+print ("London" in txt)
+if "Ford" in txt:
+    print("Yes, his name Ford")
     
     
