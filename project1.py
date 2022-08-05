@@ -157,5 +157,40 @@ print ("born" in txt)
 print ("London" in txt)
 if "Ford" in txt:
     print("Yes, his name Ford")
-    
-    
+if "Subaru" in txt:
+    print("Yes, his name Ford")
+txt = "Life is wonderfull"
+if "is" in txt:
+    print("Yes,it is")
+if "am" not in txt:
+        print("No, it isn'ht")
+txt = "I really like music of 1970s-1980s"
+print(txt)
+if "1990s" not in txt:
+    print("I don't like music of 1990s")
+x = "Hello world!!!"
+print(x)
+print (x[3:9])
+print(x[:10])
+print(x[5:])
+print(x[-9:-3])
+b = "Good Morning, guys!"
+print(b.upper())
+print(b.lower())
+print(b.strip())
+print (b.replace("guys","everybody"))
+print(b.split("guys"))
+a = "Coca"
+b ="Cola"
+c = a+"&"+b
+print(c)
+age = 34
+txt = "My name is John, I am {}"
+print(txt.format(age))
+quality = "perfect"
+price = 99.99
+amount = 13
+myorder = "I want those {} pants, about {} of it, i heard that price is {}"
+print(myorder.format(quality,amount,price))
+txt = "Modern phones are also known as \"smartphones\""
+print(txt)
