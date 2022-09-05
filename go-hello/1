@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<NotepadPlus>
+    <Session activeView="0">
+        <mainView activeIndex="0">
+            <File firstVisibleLine="196" xOffset="0" scrollWidth="836" startPos="3747" endPos="3747" selMode="0" offset="0" wrapCount="1" lang="Python" encoding="-1" userReadOnly="no" filename="\\wsl$\Ubuntu\home\skharch4\go-hello\project1.py" backupFilePath="C:\Users\HP\AppData\Roaming\Notepad++\backup\project1.py@2022-08-09_124408" originalFileLastModifTimestamp="999132980" originalFileLastModifTimestampHigh="30976383" mapFirstVisibleDisplayLine="-1" mapFirstVisibleDocLine="-1" mapLastVisibleDocLine="-1" mapNbLine="-1" mapHigherPos="-1" mapWidth="-1" mapHeight="-1" mapKByteInDoc="512" mapWrapIndentMode="-1" mapIsWrap="no" />
+        </mainView>
+        <subView activeIndex="0" />
+    </Session>
+</NotepadPlus>
