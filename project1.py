@@ -194,3 +194,41 @@ myorder = "I want those {} pants, about {} of it, i heard that price is {}"
 print(myorder.format(quality,amount,price))
 txt = "Modern phones are also known as \"smartphones\""
 print(txt)
+print (23 > 24)
+print ( 23 == 23.0 )
+print (24 < 23 )
+x = 253
+y = 300
+if x < y:
+    print("253 smaller than 300")
+else:
+    print ("253 is not smaller than 300")
+x = 24
+y = 25
+if x > y:
+    print("24 bigger than 25")
+else:
+    print("24 smaller than 25")
+print(bool("Hello"))
+print(bool("21"))
+x = "Hello"
+print(bool(x))
+y = 0
+print(bool(y))
+bool(123)
+thislist = ["Subaru","WRX","STI","S207"]
+print(thislist[2])
+print(thislist[0])
+print(thislist[0:2])
+print(thislist[1:])
+print(thislist[-2:])
+if "GR" in thislist:
+    print("Yes, it is GR")
+if "GR" not in thislist:
+    print("No, it is not GR")
+thislist = ["Subie","Legacy","Spec B","2.0R"]
+print(thislist)
+thislist[1] = "Liberty"
+thislist[3] = "Wagon"
+print (thislist)
+    
